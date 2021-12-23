@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<A HREF="Colors.html" id="link1">Color Changer</A>
+<A HREF="MovingFigure.html" id="link2">Move Figure</A>
+<A HREF="Info.html" id="link3">Info</A>
+<div class="main-window">
+
+
+
+  <div class="text">
+    <h1 style="color:white" id="firstHeader">Building Fractal</h1>
+    <h2 style="color:white" id="secondHeader">Which Fractal you<br> want to build?</h2>
+  </div>
+
+<div class="chooseFractal">
+  <button type="submit" name="button" class="button" id="KochFractal" onclick="KochBuilder()">Koch Fractal</button>
+  <br>
+  <button type="submit" name="button" class="button" id="DragonFractal" onclick="DragonBuilder()">Dragon Fractal</button>
+</div>
+<div class="iterationSector">
+    <h2 style="color:white" id="iteration">Enter iteration number</h2>
+    <input type="number" id = "itnumber" >
+
+</div>
+<button id="save" onclick="SaveFractal()">Download Dragon</button>
+<button id="saveKochFr" onclick="SaveFractal()">Download Koch</button>
+</div>
+
+
+<div class="PlaceForFractal">
+  <canvas id='canvasID' width='600' height='400'></canvas>
+  <canvas id="canvas" height="800" width="800"></canvas>
+
+</div>
+
+
+<script type="text/javascript" src="scripts.js"></script>
+<script type="text/javascript" src="reimg.js"></script>
+
+</body>
+
+</html>

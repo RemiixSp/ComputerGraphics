@@ -1,0 +1,498 @@
+body{
+  margin: 0;
+  background-color: #9D7777;
+}
+
+*,
+*:before,*:after
+{
+  box-sizing: border-box;
+}
+
+
+#link1
+{
+  margin-left: 65vw;
+}
+#link2
+{
+  margin-left: 76.3vw;
+}
+#link3
+{
+  margin-left: 88vw;
+}
+a {
+  background-color: #340909;
+  box-shadow: 0 5px 0 #340909;
+
+  color: white;
+padding: 1em 1.5em;
+  position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 2vh;
+}
+a:hover {
+  background-color: #763D3D;
+}
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  background-color: #9D7777;
+  z-index: 1;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Header
+==============================*/
+.header {
+  background-color: #102F31;
+}
+
+.header__logo {
+  display: flex;
+  margin-left: 30px;
+}
+
+#logo_img {
+  width: 124px;
+}
+
+.header__image {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+h1{
+font-size: 100%;
+}
+
+.header__text {
+  margin-left: 25px;
+    padding: 40px 0;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  height: 162px;
+}
+
+.text__logo {
+  color: #fff;
+  font-family: 'Rokkitt', serif;
+  font-weight: 600;
+  font-size: 72px;
+  text-decoration: none;
+}
+
+/* Navigation
+==============================*/
+.nav__link {
+  margin-left: 50px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Rokkitt', serif;
+  font-weight: 600;
+  font-size: 48px;
+  transition: color .1 linear;
+}
+
+.nav__link:hover {
+  color: #6FB98F;
+  text-decoration: underline;
+}
+
+.nav:last-child {
+  margin-right: 30px;
+}
+
+.nav {
+  margin: 50px 0;
+  display: flex;
+}
+
+
+/* Coordinates
+==============================*/
+.coordinates {
+  border-radius: 27px;
+  background-color: #763D3D;
+  width: 465px;
+  height: 304px;
+  margin: 60px 0 0 75px;
+}
+
+.coord_text--pos {
+  margin: 0;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.text {
+  color: #fff;
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.text--pos {
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.flexForCoor {
+  display: flex;
+  height: 65px;
+}
+
+.input_coor {
+  margin-top: 25px;
+  margin-left: 5px;
+  width: 120px;
+  height: 45px;
+  border: none;
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+}
+
+#a {
+  margin-top: 25px;
+  margin-left: 65px;
+}
+
+#b {
+  margin-left: 68px;
+  margin-top: 27px;
+}
+
+#coorAY {
+  margin-left: 40px;
+}
+
+#coorBY {
+  margin-left: 40px;
+}
+
+#coorCY {
+  margin-left: 40px;
+}
+
+.flexForText {
+  margin-top: 0px;
+  display: flex;
+  height: 35px;
+}
+
+.tC {
+  margin-top: 12px;
+  margin-left: 150px;
+}
+
+#tY {
+  margin-top: 12px;
+  margin-left: 140px;
+}
+
+
+/* Scaling And Vertex
+==============================*/
+.scalingAndVertex {
+  border-radius: 27px;
+  background-color: #763D3D;
+  width: 465px;
+  height: 180px;
+  margin: 40px 0 0 75px;
+}
+
+#scalingRange {
+  padding-top: 26px;
+  padding-left: 40px;
+  margin: 0;
+}
+
+.flexForScaling {
+  display: flex;
+  height: 90px;
+  margin-left: 50px;
+}
+
+#fileupload {
+  opacity: 0;
+}
+
+.input_scalRange {
+  margin-top: 25px;
+  margin-left: 5px;
+  width: 70px;
+  height: 45px;
+  border: none;
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+}
+
+#scale2 {
+  margin-left: 10px;
+}
+
+#rangeSymbol {
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  padding-left: 10px;
+  margin-top: 27px;
+}
+
+.flexForVertex {
+  display: flex;
+}
+
+.select {
+  text-align: center;
+  width: 83px;
+  height: 45px;
+  color: black;
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  font-size: 36px;
+  border: none;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+/* Single Segment Size
+==============================*/
+.singleSegment {
+  border-radius: 27px;
+  background-color: #6FB98F;
+  width: 465px;
+  height: 110px;
+  margin: 40px 0 0 75px;
+}
+
+.flexForSingleSegment {
+    display: flex;
+    padding-top: 10px;
+}
+
+/* Work Area
+==============================*/
+.flexWorkArea {
+  display: flex;
+}
+
+.contForWorkArea {
+  width: 950px;
+  height: 674px;
+  margin: 60px 0 0 75px;
+}
+
+.work_area {
+  height: 674px;
+  background-color: #fff;
+  border-radius: 27px;
+  text-align: center;
+  line-height: 674px;
+}
+
+#triangle {
+  vertical-align: middle;
+}
+
+/* Buttons
+==============================*/
+.flexButtons {
+  display: flex;
+}
+
+.btn-dow {
+  width: 27.5vw;;
+  height: 90px;
+  border-radius: 27px;
+  border: none;
+  background-color: #340909;
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  transition: color .1 linear;
+  margin-left: 25px;
+  cursor: pointer
+
+}
+
+.btn-dow-pos {
+  position: absolute;
+  height: 90px;
+  display: flex;
+  margin-left: -90vw;
+  margin-top: 90vh;
+}
+
+#downoladBtn {
+  margin-left: -40px;
+  margin-top: 25px;
+}
+
+#dow_img {
+  width: 43px;
+  margin-left: -30px;
+}
+
+.dow_img {
+  margin-top: 24px;
+  margin-left: -50px;
+}
+
+.btn-start {
+  width: 27.5vw;
+  height: 90px;
+  border-radius: 27px;
+  border: none;
+  background-color: #763D3D;
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  transition: color .1 linear;
+  text-align: center;
+  margin-left: 25px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.btn-start-pos {
+  position: absolute;
+
+
+  height: 90px;
+  margin-left: -90vw;
+  margin-top: 73vh;
+}
+
+.btn-paint {
+
+  width: 27.5vw;
+  height: 90px;
+  border-radius: 27px;
+  border: none;
+  background-color: #763D3D;
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  transition: color .1 linear;
+  text-align: center;
+  margin-left: 25px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.btn-paint-pos {
+  position: absolute;
+  margin-left: -90vw;
+  margin-top: 62vh;
+  height: 90px;
+
+}
+
+.btn-stop {
+  z-index: 10;
+width: 27.5vw;
+  height: 90px;
+  border-radius: 27px;
+  border: none;
+  background-color: #DF4759;
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  transition: color .1 linear;
+  text-align: center;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.btn-stop-pos {
+  position: absolute;
+
+  height: 90px;
+  margin-left: -90vw;
+  margin-top: 73vh;
+  visibility: hidden;
+}
+
+.btn-lesson {
+  width: 270px;
+  height: 90px;
+  border-radius: 27px;
+  border: none;
+  background-color: #2C7873;
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  margin-left: 25px;
+  cursor: pointer;
+  padding-left: 41px;
+  padding-right: 41px;
+  padding-top: 24.5px;
+  padding-bottom: 24.5px;
+  text-decoration: none;
+}
+
+.btn-lesson-pos {
+  width: 300px;
+  height: 90px;
+  margin: 54.5px 0 0 25px;
+}
+
+.divForInfo {
+  width: 70px;
+  height: 70px;
+  margin-top: 145px;
+  margin-left: 275px;
+  border-radius: 50%;
+}
+
+#img_info {
+  width: 70px;
+  height: 70px;
+}
+
+@font-face {
+  font-family: 'Rokkitt';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rokkitt/v24/qFdu35qfgYFjGy5hukqqhw5XeRgdi1ryd_LAMU5fIH2httAyI4R2vGo4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
